@@ -1,0 +1,23 @@
+video {
+	width: 100%;
+}
+
+#container {
+	width:60%;
+	margin:0px auto;
+	/*background-color:rgb(225,225,225);*/
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+  	display: grid;
+  	grid-template-columns: repeat(12, 8.33%);
+  	/*grid-template-rows: repeat(12, 8.33%);*/
+}
+.vidfour{
+	/*background-color:rgb(200,200,200);*/
+	margin:10px;
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 3;
+}
